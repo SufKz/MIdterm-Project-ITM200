@@ -24,7 +24,7 @@ with open('stats.txt', 'w') as file:
     file.write('Total Sales from 2012-2021:\n')
 
     for year, sales in ttl_sales.items():
-        file.write(f"{year}: {sales}\n")
+        file.write(str(year) + ': ' + str(sales) + '\n')
 ##### Q3
 import matplotlib.pyplot as plt
 
