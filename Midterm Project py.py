@@ -38,6 +38,8 @@ plt.title('Total Car Sales per Year')
 plt.xlabel('Year')
 plt.ylabel('Total Sales')
 
+plt.ticklabel_format(style='plain', axis='y')
+
 plt.show()
 #### Q4
 
